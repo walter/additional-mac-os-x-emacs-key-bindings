@@ -1,0 +1,17 @@
+/* ~/Library/KeyBindings/DefaultKeyBinding.dict */
+ 
+{
+    /* Additional Emacs bindings */
+    "~f" = "moveWordForward:";
+    "~b" = "moveWordBackward:";
+    "~<" = "moveToBeginningOfDocument:";
+    "~>" = "moveToEndOfDocument:";
+    "~v" = "pageUp:";
+    "~d" = "deleteWordForward:";
+    "~^h" = "deleteWordBackward:";
+    "~\010" = "deleteWordBackward:";  /* Option-backspace */
+    "~\177" = "deleteWordBackward:";  /* Option-delete */
+   
+    /* Escape should really be complete: */
+    "\033" = "complete:";  /* Escape */
+}
